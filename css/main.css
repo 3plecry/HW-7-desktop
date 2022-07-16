@@ -299,56 +299,56 @@ img {
   align-items: center;
 }
 
-.header-nav {
+.nav {
   display: flex;
   align-items: center;
 }
 
-.header-link {
+.menu__link {
   color: var(--main_color);
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-link:hover, .header-link:focus {
+.menu__link:hover, .menu__link:focus {
   color: var(--accent-color);
 }
 
-.header-link-page {
-  color: var(--accent-color);
-  position: relative;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.header-link-studio-page {
+.menu__link-page {
   color: var(--accent-color);
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.header-connect {
+.menu__link-studio-page {
+  color: var(--accent-color);
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.connect {
   margin-left: auto;
 }
 
-.header-contact-list {
+.connect__contact-list {
   display: flex;
   align-items: center;
 }
 
-.header-icon-mail {
+.connect__icon-mail {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.header-icon-tel {
+.connect__icon-tel {
   fill: currentColor;
   margin-right: 10px;
 }
 
-.header-tel, .header-mail {
+.connect__tel, .connect__mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -357,20 +357,20 @@ img {
   color: var(--contacts-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-tel:hover, .header-tel:focus, .header-mail:hover, .header-mail:focus {
+.connect__tel:hover, .connect__tel:focus, .connect__mail:hover, .connect__mail:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
 
-.header-tel {
+.connect__tel {
   margin-right: var(--header-margin);
 }
 
-.header-list {
+.menu {
   display: flex;
 }
 
-.header-item {
+.menu__item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -389,7 +389,7 @@ img {
   border-radius: 2px;
 }
 
-.header-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: var(--header-margin);
 }
 
@@ -409,12 +409,12 @@ img {
   display: flex;
 }
 
-.hero-content {
+.soc {
   text-align: center;
   flex-grow: 1;
 }
 
-.hero-title {
+.soc__title {
   margin-top: 0;
   margin-right: auto;
   margin-left: auto;
@@ -427,11 +427,11 @@ img {
   margin-bottom: var(--typical-margin);
 }
 
-.hero-title {
+.soc__title {
   max-width: 700px;
 }
 
-.hero-btn {
+.soc__btn {
   cursor: pointer;
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -452,22 +452,22 @@ img {
   align-items: center;
 }
 
-.benefits-list-icons {
+.plan__list-icons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.benefits-item-icons {
+.plan__item-icons {
   width: 270px;
   height: 120px;
 }
 
-.benefits-item-icons {
+.plan__item-icons {
   margin-bottom: 30px;
 }
 
-.benefits-link-icons {
+.plan__link-icons {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -480,24 +480,24 @@ img {
   margin-bottom: 30px;
 }
 
-.benefits-icon {
+.plan__icon {
   width: 65.32px;
   height: 70px;
 }
 
-.benefits-list {
+.plan__list {
   display: flex;
 }
 
-.benefits-item:not(:last-child) {
+.plan__item:not(:last-child) {
   margin-right: var(--typical-margin);
 }
 
-.benefits-sledding-item {
+.plan__sledding-item {
   max-width: 260px;
 }
 
-.benefits-sledding {
+.plan__sledding {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -506,11 +506,11 @@ img {
   color: var(--main_color);
 }
 
-.benefits-sledding {
+.plan__sledding {
   margin-bottom: 10px;
 }
 
-.benefits-sledding-item {
+.plan__sledding-item {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -528,7 +528,7 @@ img {
   display: flex;
 }
 
-.about-main-title {
+.pic__main-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -537,20 +537,20 @@ img {
   color: var(--main_color);
 }
 
-.about-list {
+.pic__list {
   display: flex;
   margin-top: var(--header-margin);
 }
 
-.about-item:not(:first-child) {
+.pic__item:not(:first-child) {
   margin-left: var(--typical-margin);
 }
 
-.abous-cover {
+.pic__cover {
   position: relative;
 }
 
-.about-cover-text {
+.pic__cover-text {
   position: absolute;
   display: flex;
   color: #ffffff;
@@ -729,7 +729,7 @@ img {
   fill: #afb1b8;
 }
 
-.footer-blocks {
+.floor__blocks {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -743,7 +743,7 @@ img {
   flex-direction: column;
 }
 
-.footer-info {
+.floor__info {
   flex-direction: column;
   min-width: 300px;
 }
@@ -761,11 +761,11 @@ img {
   margin-bottom: 20px;
 }
 
-.footer-address {
+.floor__address {
   margin-bottom: 9px;
 }
 
-.footer-address {
+.floor__address {
   font-family: "Roboto";
   font-style: normal;
   display: block;
@@ -805,22 +805,22 @@ img {
   color: var(--main-btn-color);
 }
 
-.footer-item:not(:last-child) {
+.floor__item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-tel, .footer-mail {
+.floor__tel, .floor__mail {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-tel:hover, .footer-tel:focus, .footer-mail:hover, .footer-mail:focus {
+.floor__tel:hover, .floor__tel:focus, .floor__mail:hover, .floor__mail:focus {
   color: var(--accent-color);
 }
 
-.footer-connect {
+.floor__connect {
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
@@ -858,7 +858,7 @@ img {
   background-color: var(--accent-color);
 }
 
-.online-input {
+.online__input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -868,7 +868,7 @@ img {
   padding-left: 16px;
   color: #ffffff;
 }
-.online-input::placeholder {
+.online__input::placeholder {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
@@ -876,13 +876,13 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.online-div {
+.online__div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.online-btn {
+.online__btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -900,7 +900,7 @@ img {
   color: #FFFFFF;
 }
 
-.online-icon {
+.online__icon {
   margin-left: 10px;
 }
 

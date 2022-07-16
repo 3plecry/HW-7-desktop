@@ -9,7 +9,7 @@
 display: flex;
 }
 
-.about-main-title{
+.pic__main-title{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -18,21 +18,21 @@ letter-spacing: 0.03em;
 color: var(--main_color);
 }
 
-.about-list{
+.pic__list{
 display: flex;
 margin-top: var(--header-margin);
 }
 
-.about-item:not(:first-child){
+.pic__item:not(:first-child){
     margin-left: var(--typical-margin);
 }
 
 
-.abous-cover {
+.pic__cover {
     position: relative;
 }
 
-.about-cover-text {
+.pic__cover-text {
 position: absolute;
 display: flex;
 color: #ffffff;
